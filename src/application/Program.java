@@ -21,7 +21,7 @@ public class Program {
 		System.out.println("Contains 'phone' key: " + cookies.containsKey("phone"));//verificar se contem a chave
 		System.out.println("Phone number: " + cookies.get("phone"));//"get" pegar o valor de uma chave
 		System.out.println("Email: " + cookies.get("email"));//"get" pegar um valor inexistente o MAP retorna Nulo
-		
+		System.out.println("Size: " +cookies.size());//ver o tamanho do MAP
 		
 		
 		
